@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #F7F5EF;
+    color: #171717;
+  }
+
+  code, pre, .font-mono, .tabular-nums {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Neo-brutalist shadow helpers */
+.brutal-shadow {
+  box-shadow: 4px 4px 0px #171717;
+}
+
+.brutal-shadow-sm {
+  box-shadow: 2px 2px 0px #171717;
+}
+
+.brutal-shadow-lg {
+  box-shadow: 6px 6px 0px #171717;
+}
+
+.brutal-shadow-active:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #171717;
+}

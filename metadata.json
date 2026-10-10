@@ -1,0 +1,6 @@
+{
+  "name": "Provider & Service Revenue MIS Dashboard",
+  "description": "Functional Provider and Service Revenue MIS Dashboard for veterinary hospital operations with VETport data ingestion, validation, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
